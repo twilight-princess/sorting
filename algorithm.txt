@@ -1,0 +1,52 @@
+Polymorphism, sorting, big-o my?
+
+Must contain at least 4 classes (must use concepts of inheritance and polymorphism)
+	Driver
+	Sort (MUST be pure virutal class)
+	Insertion Sort
+	Bubble Sort
+It IS required to use the Heap to store Objects in memory
+
+produce a program that sorts a list of numbers in DESCENDING order
+	it will need to read-in, from a file, a list of integers
+		the file data.txt contains 50 integers separated by commas on a single line
+		stringstream is recommended to read-in and parse the data file
+		it IS required to use an array to store the data read-in from the file
+	give the user options to choose via insertion or bubble 
+	use polymorphism to do this
+	display the sorted list
+
+must provide runtime analysis of this program
+	big-o notation provides a way to evaluate
+	provide a separate text file the big-o of the two sorting algorithms
+		provide a one paragraph summary per algorithm 
+			overview/analysis of the Big-O runetime of the program with resoect to the two sorting algortihms 
+			some additional extrnal research will be neccessary to complete this assignment
+	the program should have NO memory leaks
+		make sure to run Valgrind and include this report with submission
+
+First menu will look like:
+
+1. Load Integers (From File)
+2. Exit Program
+Please enter your selection:1
+
+Unsorted Array: 39, 14, 100, 16, 93, 24, 62, 68, 52, 76, 86, 48, 15, 41, 83, 55, 18, 30, 74, 7, 31, 44, 67, 81,
+70, 27, 53, 59, 61, 19, 56, 35, 88, 58, 72, 98, 38, 64, 94, 69, 50, 46, 78, 6, 57, 89, 26, 20, 79, 49
+
+Second menu will look like:
+
+1. Insertion Sort
+2. Bubble Sort
+3. Exit Program
+Please enter your selection: 1
+
+Insertion Sort: 100, 98, 94, 93, 89, 88, 86, 83, 81, 79, 78, 76, 74, 72, 70, 69, 68, 67, 64, 62, 61, 59, 58,
+57, 56, 55, 53, 52, 50, 49, 48, 46, 44, 41, 39, 38, 35, 31, 30, 27, 26, 24, 20, 19, 18, 16, 15, 14, 7, 6
+
+OR for selection 2
+
+Bubble Sort: 100, 98, 94, 93, 89, 88, 86, 83, 81, 79, 78, 76, 74, 72, 70, 69, 68, 67, 64, 62, 61, 59, 58, 57,
+56, 55, 53, 52, 50, 49, 48, 46, 44, 41, 39, 38, 35, 31, 30, 27, 26, 24, 20, 19, 18, 16, 15, 14, 7, 6
+
+After sorting either way the program must go back to menu 1 to reload the data from the file
