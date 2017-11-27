@@ -2,7 +2,7 @@ Polymorphism, sorting, big-o my?
 
 Must contain at least 4 classes (must use concepts of inheritance and polymorphism)
 	Driver
-	Sort (MUST be pure virutal class)
+	Sort (MUST be pure virtual class)
 	Insertion Sort
 	Bubble Sort
 It IS required to use the Heap to store Objects in memory
@@ -12,16 +12,16 @@ produce a program that sorts a list of numbers in DESCENDING order
 		the file data.txt contains 50 integers separated by commas on a single line
 		stringstream is recommended to read-in and parse the data file
 		it IS required to use an array to store the data read-in from the file
-	give the user options to choose via insertion or bubble 
+	give the user options to choose via insertion or bubble
 	use polymorphism to do this
 	display the sorted list
 
 must provide runtime analysis of this program
 	big-o notation provides a way to evaluate
 	provide a separate text file the big-o of the two sorting algorithms
-		provide a one paragraph summary per algorithm 
-			overview/analysis of the Big-O runetime of the program with resoect to the two sorting algortihms 
-			some additional extrnal research will be neccessary to complete this assignment
+		provide a one paragraph summary per algorithm
+			overview/analysis of the Big-O runtime of the program with respect to the two sorting algorithms
+			some additional external research will be necessary to complete this assignment
 	the program should have NO memory leaks
 		make sure to run Valgrind and include this report with submission
 
