@@ -50,3 +50,6 @@ Bubble Sort: 100, 98, 94, 93, 89, 88, 86, 83, 81, 79, 78, 76, 74, 72, 70, 69, 68
 56, 55, 53, 52, 50, 49, 48, 46, 44, 41, 39, 38, 35, 31, 30, 27, 26, 24, 20, 19, 18, 16, 15, 14, 7, 6
 
 After sorting either way the program must go back to menu 1 to reload the data from the file
+
+big-o notes from lab 11/29
+#idk 	

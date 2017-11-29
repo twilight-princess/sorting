@@ -17,7 +17,14 @@ int main()
 
 		if (choice == "1")
 		{
-			//Menu.menu2();
+			std::cout << "1. Insertion Sort" <<std::endl;
+			std::cout << "2. Bubble Sort" <<std::endl;
+			std::cout << "3. Exit Program" <<std::endl;
+			std::cout << " " <<std::endl;
+			std::cout << "Please enter your selection:";
+			std::string choice2; 
+			std::cin >> choice2;
+			
 		}
 		else if (choice == "2")
 		{
