@@ -4,7 +4,9 @@ Bubble::Bubble(std::vector<int> unsorted)
 {
 	numbers = unsorted;
 }
-
+Bubble::~Bubble()
+{
+}
 std::vector<int> Bubble::sort()
 {
 	int n = numbers.size();

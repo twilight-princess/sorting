@@ -7,6 +7,7 @@ class Bubble : public Sort
 {
 	public:
 		Bubble(std::vector<int> unsorted);
+		~Bubble();
 		virtual std::vector<int> sort();
 	private:
 		std::vector<int> numbers;

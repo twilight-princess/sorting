@@ -4,7 +4,7 @@ Insertion::Insertion(std::vector<int> unsorted)
 {
 	numbers = unsorted;
 }
-
+Insertion::~Insertion(){}
 std::vector<int> Insertion::sort()
 {
 	int n = numbers.size();

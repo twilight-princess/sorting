@@ -83,12 +83,14 @@ int main()
 				Insertion *insertion = new Insertion(numberArray);
 				std::cout << "Insertion Sort: " + conversion(insertion->sort()) <<std::endl;	
 				std::cout << " " << std::endl;
+				delete insertion;
 			}
 			else if (choice2 == "2")
 			{
 				Bubble *bubble = new Bubble(numberArray);
 				std::cout << "Bubble Sort: " + conversion(bubble->sort()) << std::endl;
 				std::cout << " " << std::endl;
+				delete bubble;
 			}
 			else
 			{
