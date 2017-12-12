@@ -1,0 +1,6 @@
+Bubble Sort
+The algorithm complexity is O(n^2). This is because there is a loop inside a loop. For each loop the complexity is O(n). O(n^2) is a polynomial function. Polynomial functions are better than exponential function but not as good as linear function. The best case is a O(log n) which gets faster as it progresses. This algorithm could be made more efficient in the best case by stopping the inner loop when it meets the qualifications to swap numbers.
+
+Insertion Sort
+The agorithm complexity is also O(n^2) because there is a loop inside a loop. However the best case in insertion sort is linear. If an array of numbers is passed in that is already sorted then it won't need the inner loop. That would make the complexity O(n). Even when the bubble sort is improved it will still require the inner loop. The best case on bubble sort is always polynomial where the best case in insertion sort is linear.
+ 
