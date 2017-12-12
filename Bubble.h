@@ -6,13 +6,11 @@
 class Bubble : public Sort
 {
 	public:
-		Bubble(int sortedNot[]);
-		virtual void sort();
-		std::string getSorted();
+		Bubble(std::vector<int> unsorted);
+		virtual std::vector<int> sort();
 	private:
-		int sortedNot[];
-		int sorted[];
-}
+		std::vector<int> numbers;
+};
 
-
+#endif
 

@@ -52,4 +52,5 @@ Bubble Sort: 100, 98, 94, 93, 89, 88, 86, 83, 81, 79, 78, 76, 74, 72, 70, 69, 68
 After sorting either way the program must go back to menu 1 to reload the data from the file
 
 big-o notes from lab 11/29
-#idk 	
+#idk
+xsortlab = google it for examples 	

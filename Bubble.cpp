@@ -1,21 +1,22 @@
 #include"Bubble.h"
 
-Bubble::Bubble(int sortedNot[])
+Bubble::Bubble(std::vector<int> unsorted)
 {
-	sortedNot = sNot;
+	numbers = unsorted;
 }
 
-std::string Bubble::getSorted()
+std::vector<int> Bubble::sort()
 {
-	std::string sortedString = "";
-	//IDK the syntax here
-	for(i = 0; i < (sortedNot.length-1); i++) 
+	int n = numbers.size();
+	for (int i = 0; i < n-1; i++) 
 	{
-		if(sortedNot[i] < notSorted[i+1])
-		{
-			// swap(notSorted[i],notSorted[i+1] 
+		for (int j = 0; j < n-1-i; j++)
+		{ 
+			if(numbers[j] < numbers[j+1])
+			{
+				std::swap(numbers[j],numbers[j+1]); 
+			}
 		}
 	}
-	//this is all a dream
-	return(sortedString);
+	return(numbers);
 }

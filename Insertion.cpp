@@ -1,24 +1,24 @@
 #include"Insertion.h"
 
-Insertion::Insertion(int sortedNot[])
+Insertion::Insertion(std::vector<int> unsorted)
 {
-	sortedNot = sNot;
+	numbers = unsorted;
 }
 
-std::string Insertion::getSorted()
+std::vector<int> Insertion::sort()
 {
-	std::string sortedString = "";
-	/*
-	1.B[1] = A[1] 
-	2.for j = 2 to n  
+	int n = numbers.size();
+	int i,j,k;
+	for (i = 1; i < n; i++)
+	{
+		j = i;
+		while (0 < j && numbers[j] > numbers[j-1])
 		{
-	3.       i = j - 1 
-	4.       while 0 < i and A[j] < B[i] 
-	5.             i = i - 1 
-	6.            for k = j down-to i + 2
-	7.                   B[k] = B[k-1]
-	8.            B[i+1] = A[j]   
+			k = numbers[j];
+			numbers[j] = numbers[j-1];
+			numbers[j-1] = k;
+			j--;
 		}
-	*/
-	return(sortedString);
+	}
+	return(numbers);
 }
